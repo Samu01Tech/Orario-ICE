@@ -1,6 +1,7 @@
 {
     "giorni":[
         {
+            "n": 1,
             "giorno": "Lunedì",
             "materie": [
                 {
@@ -30,12 +31,14 @@
             ]
         },
         {
+            "n": 2,
             "giorno": "Martedì",
             "materie": [
                 
             ]
         },
         {
+            "n": 3,
             "giorno": "Mercoledì",
             "materie": [
                 {
@@ -73,6 +76,7 @@
             ]
         },
         {
+            "n": 4,
             "giorno": "Giovedì",
             "materie": [
                 {
@@ -94,6 +98,7 @@
             ]
         },
         {
+            "n": 5,
             "giorno": "Venerdì",
             "materie": [
                 {

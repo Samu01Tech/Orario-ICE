@@ -1,29 +1,37 @@
 <template>
-  <div class="column">
-    <div class="card">
-      <header class="card-header">
-        <p class="card-header-title has-text-grey">
-          {{ title }}
-        </p>
-      </header>
-      <div class="card-content">
-        <div class="content has-text-centered">
-          <b-icon
-            :icon="icon"
-            size="is-large"
-            type="is-primary"
-          />
-        </div>
-      </div>
-      <footer class="card-footer">
-        <div class="card-footer-item">
-          <span>
-            <slot />
-          </span>
-        </div>
-      </footer>
-    </div>
-  </div>
+    <section>
+
+        <b-collapse class="card" animation="slide" aria-id="contentIdForA11y3">
+            <template #trigger="props">
+                <div
+                    class="card-header"
+                    role="button"
+                    aria-controls="contentIdForA11y3">
+                    <p class="card-header-title">
+                        Component
+                    </p>
+                    <a class="card-header-icon">
+                        <b-icon
+                            :icon="props.open ? 'menu-down' : 'menu-up'">
+                        </b-icon>
+                    </a>
+                </div>
+            </template>
+
+            <div class="card-content">
+                <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                    <a>#buefy</a>.
+                </div>
+            </div>
+            <footer class="card-footer">
+                <a class="card-footer-item">Save</a>
+                <a class="card-footer-item">Edit</a>
+                <a class="card-footer-item">Delete</a>
+            </footer>
+        </b-collapse>
+
+    </section>
 </template>
 
 <script>
