@@ -1,0 +1,118 @@
+{
+    "giorni":[
+        {
+            "giorno": "Lunedì",
+            "materie": [
+                {
+                    "colore": "#00BCD4",
+                    "titolo": "Programmazione 2 - Molteni",
+                    "tag": "PR2",
+                    "link": "https://unitn.zoom.us/j/96322946876",
+                    "codice": "6b4Ztp",
+                    "ora": "8:30 - 10:30"
+                },
+                {
+                    "colore": "#00BCD4",
+                    "titolo": "Programmazione 2 - Picco",
+                    "tag": "PR2",
+                    "link": "https://unitn.zoom.us/j/89994724287",
+                    "codice": "661792",
+                    "ora": "8:30 - 10:30"
+                },
+                {
+                    "colore": "#F44336",
+                    "titolo": "Analisi 2",
+                    "tag": "A2",
+                    "link": "https://unitn.zoom.us/j/86061784975",
+                    "codice": "047881",
+                    "ora": "10:30 - 12:30"
+                }
+            ]
+        },
+        {
+            "giorno": "Martedì",
+            "materie": [
+                
+            ]
+        },
+        {
+            "giorno": "Mercoledì",
+            "materie": [
+                {
+                    "colore": "#9C27B0",
+                    "titolo": "Calcolo delle Probabilità",
+                    "tag": "CPR",
+                    "link": "https://unitn.zoom.us/j/84255277068",
+                    "codice": "907881",
+                    "ora": "8:30 - 10:30"
+                },
+                {
+                    "colore": "#00BCD4",
+                    "titolo": "Programmazione 2 - Molteni",
+                    "tag": "PR2",
+                    "link": "https://unitn.zoom.us/j/96322946876",
+                    "codice": "6b4Ztp",
+                    "ora": "8:30 - 10:30"
+                },
+                {
+                    "colore": "#00BCD4",
+                    "titolo": "Programmazione 2 - Picco",
+                    "tag": "PR2",
+                    "link": "https://unitn.zoom.us/j/89994724287",
+                    "codice": "661792",
+                    "ora": "8:30 - 10:30"
+                },
+                {
+                    "colore": "#FF9800",
+                    "titolo": "Tutorato fisica 1",
+                    "tag": "TF1",
+                    "link": "",
+                    "codice": "",
+                    "ora": "14:30 - 16:30"
+                }
+            ]
+        },
+        {
+            "giorno": "Giovedì",
+            "materie": [
+                {
+                    "colore": "#9C27B0",
+                    "titolo": "Calcolo delle Probabilità",
+                    "tag": "CPR",
+                    "link": "https://unitn.zoom.us/j/84255277068",
+                    "codice": "907881",
+                    "ora": "13:30 - 15:30"
+                },
+                {
+                    "colore": "#FF9800",
+                    "titolo": "Fisica 1",
+                    "tag": "TF1",
+                    "link": "",
+                    "codice": "",
+                    "ora": "15:30 - 18:30"
+                }
+            ]
+        },
+        {
+            "giorno": "Venerdì",
+            "materie": [
+                {
+                    "colore": "#F44336",
+                    "titolo": "Analisi 2",
+                    "tag": "A2",
+                    "link": "https://unitn.zoom.us/j/86061784975",
+                    "codice": "047881",
+                    "ora": "10:30 - 12:30"
+                },
+                {
+                    "colore": "#FF9800",
+                    "titolo": "Fisica 1",
+                    "tag": "F1",
+                    "link": "",
+                    "codice": "",
+                    "ora": "10:30 - 13:30"
+                }
+            ]
+        }    
+    ]
+}

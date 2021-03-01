@@ -1,0 +1,31 @@
+{
+    "people": [
+      {
+        "name": "Evan You",
+        "twitter": "youyuxi",
+        "tags": [
+          "VueJS"
+        ]
+      },
+      {
+        "name": "Evan You",
+        "twitter": "youyuxi",
+        "tags": [
+          "VueJS"
+        ]
+      },
+      {
+        "name": "Evan You",
+        "twitter": "youyuxi",
+        "tags": [
+          "VueJS"
+        ]
+      }
+    ],
+    "orgs": [
+      {
+        "name": "Nuxt",
+        "twitter": "nuxt_js"
+      }
+    ]
+  }
