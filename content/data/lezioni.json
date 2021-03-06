@@ -70,7 +70,7 @@
                     "titolo": "Tutorato fisica 1",
                     "tag": "TF1",
                     "link": "",
-                    "codice": "",
+                    "codice": "-",
                     "ora": "14:30 - 16:30"
                 }
             ]
@@ -91,8 +91,8 @@
                     "colore": "#FF9800",
                     "titolo": "Fisica 1",
                     "tag": "TF1",
-                    "link": "",
-                    "codice": "",
+                    "link": "https://exameet.com/mod/bigbluebuttonbn/view.php?id=1028",
+                    "codice": "-",
                     "ora": "15:30 - 18:30"
                 }
             ]
@@ -113,8 +113,8 @@
                     "colore": "#FF9800",
                     "titolo": "Fisica 1",
                     "tag": "F1",
-                    "link": "",
-                    "codice": "",
+                    "link": "https://exameet.com/mod/bigbluebuttonbn/view.php?id=1028",
+                    "codice": "-",
                     "ora": "10:30 - 13:30"
                 }
             ]

@@ -3,29 +3,38 @@
     <div class="content">
       <b-collapse v-for="(g, index) in lezioni.giorni" :key="index" class="card block" animation="slide" :open="isOpen == index" @open="isOpen = index">
             <template #trigger="props">
-              <div
+              <header
                   class="card-header"
                   role="button"
               >
                   <p class="card-header-title">
                       {{g.giorno}}
                   </p>
-                  <p class="card-header-title" v-if="g.n == getUnits()">
+                  <!-- <b-taglist v-for="m in g.materie" :key="m.titolo">
+                    <b-tag class="is-primary">{{m.tag}}</b-tag>
+                  </b-taglist>    -->
+                  <!-- <p class="card-header-title" v-if="g.n == getUnits()">
                       Oggi
-                  </p>
-                  <a class="card-header-icon">
+                  </p> -->
+                  <p class="card-header-icon">
                       <b-icon
                           :icon="props.open ? 'menu-up' : 'menu-down'">
                       </b-icon>
-                  </a>
-              </div>
+                  </p>
+              </header>
           </template>
-          <div>
-                    <h1 class="title">{{g.giorno}}</h1>
-        <h2 v-for="m in g.materie" :key="m.titolo" class="subtitle">
-          {{m.titolo}}
-        </h2>     
-          </div>
+          <section class="section">
+            <div v-for="m in g.materie" :key="m.titolo" class="card block materie">
+              <Materia 
+                :titolo="m.titolo"
+                :tag="m.tag"
+                :colore="m.colore"
+                :link="m.link"
+                :codice="m.codice"
+                :ora="m.ora"
+              ></Materia>
+            </div>     
+          </section>
 
       </b-collapse>
     </div>
@@ -33,6 +42,7 @@
 </template>
 
 <script>
+import Materia from '@/components/Materia.vue'
 export default {
   methods:{
     getUnits: function() {
@@ -46,19 +56,20 @@ export default {
   },
   async asyncData ({ $content }) {
     const lezioni = await $content('data/lezioni').fetch()
-    const lezioneoggi = await $content('data/lezioni').fetch()
     const follow = await $content('data/follow').fetch()
 
     return {
       follow,
-      lezioni,
-      lezioneoggi
+      lezioni
     }
   },
   data(){
     return{
       isOpen: 6,
     }
+  },
+  components: {
+    Materia
   }
 }
 </script>

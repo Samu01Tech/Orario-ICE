@@ -12,8 +12,13 @@
     "@nuxt/content": "^1.11.1",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.8.3",
+    "font-awesome": "^4.7.0",
     "nuxt": "^2.14.12",
     "nuxt-buefy": "^0.4.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1"
+  }
 }
