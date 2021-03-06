@@ -3,25 +3,30 @@
     <div class="content">
       <b-collapse v-for="(g, index) in lezioni.giorni" :key="index" class="card block" animation="slide" :open="isOpen == index" @open="isOpen = index">
             <template #trigger="props">
+              <p class="card-header-title" v-if="g.n == getUnits()">
+                Oggi
+              </p>
+
               <header
                   class="card-header"
                   role="button"
               >
-                  <p class="card-header-title">
-                      {{g.giorno}}
-                  </p>
-                  <!-- <b-taglist v-for="m in g.materie" :key="m.titolo">
-                    <b-tag class="is-primary">{{m.tag}}</b-tag>
-                  </b-taglist>    -->
-                  <!-- <p class="card-header-title" v-if="g.n == getUnits()">
-                      Oggi
-                  </p> -->
+                  <div class="card-header-title is-size-3">{{g.giorno}}</div>
+
+                  
+                  
                   <p class="card-header-icon">
                       <b-icon
                           :icon="props.open ? 'menu-up' : 'menu-down'">
                       </b-icon>
                   </p>
+                  
               </header>
+              <footer class="card-footer">
+              <div v-for="m in g.materie" :key="m.titolo">
+                <span class="tag ml-4 my-2" v-bind:style="{'background-color': m.colore, 'color': '#FFFFFF'}">{{m.tag}}</span>
+              </div>
+              </footer>
           </template>
           <div class="card-content">
             <div v-for="m in g.materie" :key="m.titolo" class="card block materie">
@@ -56,10 +61,8 @@ export default {
   },
   async asyncData ({ $content }) {
     const lezioni = await $content('data/lezioni').fetch()
-    const follow = await $content('data/follow').fetch()
 
     return {
-      follow,
       lezioni
     }
   },

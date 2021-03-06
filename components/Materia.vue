@@ -1,12 +1,12 @@
 <template>
-  <div class="card NuxtMateria">
+  <div class="card NuxtMateria" v-bind:style="{'background-color': colore}">
       <div class="card-content  has-text-centered">
         <div class="columns">
           <div class="column">
-            <h1 class="title">{{titolo}}</h1>
+            <h1 class="title has-text-white">{{titolo}}</h1>
           </div>
           <div class="column">
-            <h2 class="is-2">{{ora}}</h2>
+            <h2 class="is-2 has-text-white">{{ora}}</h2>
           </div>
         </div>
         <!-- <h2 class="subtitle">{{colore}}</h2> -->
