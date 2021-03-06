@@ -11,7 +11,13 @@ if (workbox) {
   workbox.addEventListener('installed', (event) => {
     // If we don't do this we'll be displaying the notification after the initial installation, which isn't perferred.
     if (event.isUpdate) {
-      this.$buefy.snackbar.open(`Ricarica la pagina per aggiornare`)    }
+      this.$buefy.snackbar.open({
+                    message: 'Ricarica per aggiornare',
+                    type: 'is-warning',
+                    position: 'is-top',
+                    indefinite: true,
+                })  
+      }
   });
 }
 }
