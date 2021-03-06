@@ -23,7 +23,7 @@
                   </p>
               </header>
           </template>
-          <section class="section">
+          <div class="card-content">
             <div v-for="m in g.materie" :key="m.titolo" class="card block materie">
               <Materia 
                 :titolo="m.titolo"
@@ -34,7 +34,7 @@
                 :ora="m.ora"
               ></Materia>
             </div>     
-          </section>
+          </div>
 
       </b-collapse>
     </div>
