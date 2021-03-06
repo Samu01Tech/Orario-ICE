@@ -8,7 +8,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'Orario ICE', content: 'Questo sito consente di visualzzare l\' orario del corso di Ingegneria Informatica, delle Comunicazioni ed Elettronica  ' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -46,7 +46,17 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'it'
+      name: 'Orario ICE',
+      description: 'Questa PWA consente di visualzzare l\' orario del corso di Ingegneria Informatica, delle Comunicazioni ed Elettronica',
+      short_name: 'ICE',
+      lang: 'it',
+      theme_color: '#209cee',
+      display: 'fullscreen'
+    },
+    meta: {
+      author: 'Samuele Mazzei',
+      theme_color: '#209cee',
+      lang: 'it',
     }
   },
 
