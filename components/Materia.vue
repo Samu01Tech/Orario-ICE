@@ -3,10 +3,10 @@
       <div class="card-content  has-text-centered">
         <div class="columns">
           <div class="column">
-            <h1 class="title has-text-white">{{titolo}}</h1>
+            <h1 class="title has-text-white is-size-4-mobile">{{titolo}}</h1>
           </div>
           <div class="column">
-            <h2 class="is-2 has-text-white">{{ora}}</h2>
+            <h2 class="is-2 has-text-white is-size-4-mobile">{{ora}}</h2>
           </div>
         </div>
         <!-- <h2 class="subtitle">{{colore}}</h2> -->
@@ -16,7 +16,7 @@
           </div>
           <input hidden v-model="codice">
           <div class="column">
-            <b-button class="button" icon-right="clipboard-outline" v-clipboard="codice" v-clipboard:success="onCopy" v-clipboard:error="onError">{{codice}}</b-button>
+            <b-button class="button is-outlined" icon-right="clipboard-outline" v-clipboard="codice" v-clipboard:success="onCopy" v-clipboard:error="onError">{{codice}}</b-button>
           </div>
         </footer>
       </div>
@@ -53,14 +53,18 @@ export default {
   },
   methods: {
     onCopy: function (e) {
-      this.$buefy.snackbar.open({
-        message: "Codice " + e.text + " copiato",
-        type: 'is-primary',
+      this.$buefy.toast.open({
+        message: "Codice \"" + e.text + "\" copiato",
+        type: 'is-success',
         position: 'is-bottom',
       })
     },
     onError: function (e) {
-      alert('Failed to copy texts')
+      this.$buefy.toast.open({
+        message: "Impossbile copiare il codice",
+        type: 'is-danger',
+        position: 'is-bottom',
+      })
     }
   }
 }
