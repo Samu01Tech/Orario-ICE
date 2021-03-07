@@ -11,7 +11,7 @@ export default {
       { hid: 'description', name: 'Orario ICE', content: 'Questo sito consente di visualzzare l\' orario del corso di Ingegneria Informatica, delle Comunicazioni ed Elettronica dell\' Università degli studi di Trento' }
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/icon.png' }
+      { rel: 'icon', type: 'image/png', href: '/icon2.png' }
     ]
   },
 
@@ -58,7 +58,7 @@ export default {
       lang: 'it',
     },
     icon: {
-      fileName: 'icon1.png',
+      fileName: 'icon2.png',
     },
   },
 
