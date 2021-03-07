@@ -3,9 +3,8 @@
     <div class="content">
       
       <b-collapse v-for="(g, index) in lezioni.giorni" :key="index" class="card block" animation="slide" :open="isOpen == index" @open="isOpen = index">
-            <div :id="g.giorno"></div>
-            <template #trigger="props"><a :href="'#' + g.giorno" >
-              <span class="tag is-size-6 is-warning is-flex is-justify-content-center" >
+            <template #trigger="props">
+              <span class="tag is-size-6 is-warning is-flex is-justify-content-center" v-if="g.n == getUnits()">
                 Oggi
               </span>
               <header class="card-header" role="button" >
@@ -17,12 +16,12 @@
                   </p>
               </header>
               
-              <footer class="card-footer" v-if="isOpen != index">
+              <footer class="card-footer">
               <div v-for="m in g.materie" :key="m.titolo">
-                <span class="tag ml-4 my-2" v-bind:style="{'background-color': m.colore, 'color': '#FFFFFF'}">{{m.tag}}</span>
+                <span class="tag ml-4 my-3" v-bind:style="{'background-color': m.colore, 'color': '#FFFFFF'}">{{m.tag}}</span>
               </div>
               </footer>
-          </a></template>
+          </template>
           <div class="card-content" >
             <div v-for="m in g.materie" :key="m.titolo" class="card block materie">
               <Materia 

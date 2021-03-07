@@ -78,9 +78,7 @@ $link-invert: $primary-invert;
 $link-focus-border: $primary;
 
 //other stiling
-html {
-    scroll-behavior: smooth;
-}
+
 ::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);

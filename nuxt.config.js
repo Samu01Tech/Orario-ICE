@@ -4,14 +4,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Orario-ICE',
+    title: 'Orario ICE',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'Orario ICE', content: 'Questo sito consente di visualzzare l\' orario del corso di Ingegneria Informatica, delle Comunicazioni ed Elettronica  ' }
+      { hid: 'description', name: 'Orario ICE', content: 'Questo sito consente di visualzzare l\' orario del corso di Ingegneria Informatica, delle Comunicazioni ed Elettronica dell\' Università degli studi di Trento' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/png', href: '/icon.png' }
     ]
   },
 
@@ -42,22 +42,24 @@ export default {
     
     'nuxt-clipboard2',
   ],
-
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      name: 'Orario ICE',
-      description: 'Questa PWA consente di visualzzare l\' orario del corso di Ingegneria Informatica, delle Comunicazioni ed Elettronica',
-      short_name: 'ICE',
+      name: 'Orario del corso di Ingegneria Informatica, delle Comunicazioni ed Elettronica dell\' Università degli studi di Trento ',
+      description: 'Questa PWA consente di visualzzare l\' orario e accedere alle lezioni del corso di Ingegneria Informatica, delle Comunicazioni ed Elettronica dell\' Università degli studi di Trento',
+      short_name: 'Orario ICE',
       lang: 'it',
       theme_color: '#209cee',
-      display: 'fullscreen'
+      display: 'fullscreen',
     },
     meta: {
       author: 'Samuele Mazzei',
       theme_color: '#209cee',
       lang: 'it',
-    }
+    },
+    icon: {
+      fileName: 'icon1.png',
+    },
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
