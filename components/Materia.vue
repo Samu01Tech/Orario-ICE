@@ -53,11 +53,13 @@ export default {
   },
   methods: {
     onCopy: function (e) {
-      this.$buefy.toast.open({
-        message: "Codice \"" + e.text + "\" copiato",
-        type: 'is-success',
-        position: 'is-bottom',
-      })
+      if(!this.$device.isAndroid || !this.$device.isIos){
+        this.$buefy.toast.open({
+          message: "Codice \"" + e.text + "\" copiato",
+          type: 'is-success',
+          position: 'is-bottom',
+        })
+      }
     },
     onError: function (e) {
       this.$buefy.toast.open({

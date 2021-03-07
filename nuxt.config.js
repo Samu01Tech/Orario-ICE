@@ -41,11 +41,13 @@ export default {
     '@nuxt/content',
     
     'nuxt-clipboard2',
+
+    '@nuxtjs/device',
   ],
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      name: 'Orario del corso di Ingegneria Informatica, delle Comunicazioni ed Elettronica dell\' Università degli studi di Trento ',
+      name: 'Orario ICE',
       description: 'Questa PWA consente di visualzzare l\' orario e accedere alle lezioni del corso di Ingegneria Informatica, delle Comunicazioni ed Elettronica dell\' Università degli studi di Trento',
       short_name: 'Orario ICE',
       lang: 'it',
