@@ -2,7 +2,7 @@
 <section class="hero is-medium is-link NuxtHero">
   <div class="hero-body">
     <p class="title">
-      Orario ICE
+      Orario ICE funzionante
     </p>
     <p class="subtitle">
       Secondo semestre
