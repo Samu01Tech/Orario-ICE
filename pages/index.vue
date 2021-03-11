@@ -50,9 +50,11 @@ export default {
       return n
     }
   },
+  /*
   beforeMount(){
     this.getUnits()
   },
+  */
   async asyncData ({ $content }) {
     const lezioni = await $content('data/lezioni').fetch()
 
