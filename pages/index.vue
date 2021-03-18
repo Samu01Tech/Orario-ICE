@@ -1,8 +1,10 @@
 <template>
   <section class="section">
     <div class="content">
-      
-      <b-collapse v-for="(g, index) in lezioni.giorni" :key="index" class="card block" animation="slide" :open="isOpen == index" @open="isOpen = index">
+      <div class="columns">
+        <div class="column"></div>
+        <div class="column is-three-quarters">
+<b-collapse v-for="(g, index) in lezioni.giorni" :key="index" class="card block" animation="slide" :open="isOpen == index" @open="isOpen = index">
             <template #trigger="props">
               <span class="tag is-size-6 is-success is-flex is-justify-content-center" v-if="g.n == getUnits()">
                 Oggi
@@ -36,6 +38,11 @@
           </div>
 
       </b-collapse>
+        </div>
+        <div class="column"></div>
+      </div>
+      
+      
     </div>
   </section>
 </template>
