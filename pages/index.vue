@@ -4,7 +4,7 @@
       
       <b-collapse v-for="(g, index) in lezioni.giorni" :key="index" class="card block" animation="slide" :open="isOpen == index" @open="isOpen = index">
             <template #trigger="props">
-              <span class="tag is-size-6 is-warning is-flex is-justify-content-center" v-if="g.n == getUnits()">
+              <span class="tag is-size-6 is-success is-flex is-justify-content-center" v-if="g.n == getUnits()">
                 Oggi
               </span>
               <header class="card-header" role="button" >
