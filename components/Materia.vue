@@ -12,7 +12,7 @@
         <!-- <h2 class="subtitle">{{colore}}</h2> -->
         <footer class="columns">
           <div class="column">
-            <a :href="link"><div class="button is-primary">Accedi alla lezione</div></a>
+            <a :href="link" target="_blank"><div class="button is-primary">Accedi alla lezione</div></a>
           </div>
           <input hidden v-model="codice">
           <div class="column">
