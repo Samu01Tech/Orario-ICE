@@ -81,6 +81,14 @@
             "materie": [
                 {
                     "colore": "#9C27B0",
+                    "titolo": "Tutorato Calcolo delle Probabilità",
+                    "tag": "TCPR",
+                    "link": "https://unitn.zoom.us/j/89237241492?pwd=ZXl2WXd1bi9Dcm9UdHZvVVR6NGM5dz09",
+                    "codice": "-",
+                    "ora": "8:30 - 10:30"
+                },
+                {
+                    "colore": "#9C27B0",
                     "titolo": "Calcolo delle Probabilità",
                     "tag": "CPR",
                     "link": "https://unitn.zoom.us/j/84255277068",
@@ -90,7 +98,7 @@
                 {
                     "colore": "#FF9800",
                     "titolo": "Fisica 1",
-                    "tag": "TF1",
+                    "tag": "F1",
                     "link": "https://exameet.com/mod/bigbluebuttonbn/view.php?id=1028",
                     "codice": "-",
                     "ora": "15:30 - 18:30"
