@@ -6,9 +6,9 @@
         <div class="column is-three-quarters">
 <b-collapse v-for="(g, index) in lezioni.giorni" :key="index" class="card block" animation="slide" :open="isOpen == index" @open="isOpen = index">
             <template #trigger="props">
-              <span class="tag is-size-6 is-success is-flex is-justify-content-center" v-if="g.n == getUnits()">
+              <!-- <span class="tag is-size-6 is-success is-flex is-justify-content-center" v-if="g.n == getUnits()">
                 Oggi
-              </span>
+              </span> -->
               <header class="card-header" role="button" >
                   <div class="card-header-title is-size-3">{{g.giorno}}</div>
                   <p class="card-header-icon">
@@ -50,6 +50,7 @@
 <script>
 import Materia from '@/components/Materia.vue'
 export default {
+  /*
   methods:{
     getUnits: function() {
       let d = new Date()
@@ -57,7 +58,7 @@ export default {
       return n
     }
   },
-  /*
+  
   beforeMount(){
     this.getUnits()
   },
