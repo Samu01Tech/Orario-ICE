@@ -4,6 +4,9 @@
       <div class="columns">
         <div class="column"></div>
         <div class="column is-three-quarters">
+          <b-message title="Attenzione" type="is-info" has-icon aria-close-label="Close message">
+            Il giorno 8/04/2021 la lezione di Calcolo delle Probabilità è anticipata alle ore 13:00
+        </b-message>
 <b-collapse v-for="(g, index) in lezioni.giorni" :key="index" class="card block" animation="slide" :open="isOpen == index" @open="isOpen = index">
             <template #trigger="props">
               <!-- <span class="tag is-size-6 is-success is-flex is-justify-content-center" v-if="g.n == getUnits()">
