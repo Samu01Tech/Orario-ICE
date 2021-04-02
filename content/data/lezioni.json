@@ -110,6 +110,14 @@
                     "ora": "10:30 - 12:30"
                 },
                 {
+                    "colore": "#F44336",
+                    "titolo": "Esercitazione Analisi 2",
+                    "tag": "A2",
+                    "link": "https://unitn.zoom.us/j/87493461118",
+                    "codice": "GaussGreen",
+                    "ora": "10:30 - 12:30"
+                },
+                {
                     "colore": "#FF9800",
                     "titolo": "Fisica 1",
                     "tag": "F1",
@@ -123,7 +131,7 @@
                     "tag": "TCPR",
                     "link": "https://unitn.zoom.us/j/89237241492?pwd=ZXl2WXd1bi9Dcm9UdHZvVVR6NGM5dz09",
                     "codice": "-",
-                    "ora": "???"
+                    "ora": "14:30 - 16:30"
                 }
             ]
         }    
