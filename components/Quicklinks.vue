@@ -7,20 +7,17 @@
       class="button is-success is-fullwidth block"
       tag="a"
       href="https://exameet.com/course/view.php?id=9"
-      icon-left="clipboard-outline"
-      >Exameet</b-button>
+      >🧲 Exameet</b-button>
     <b-button
       class="button is-danger is-fullwidth block"
       tag="a"
       href="https://webapps.unitn.it/gestionecorsi/"
-      icon-left="clipboard-outline"
-      >Gestione Corsi</b-button>
+      >👨‍🏫 Gestione Corsi Moodle</b-button>
     <b-button
       class="button is-primary is-fullwidth block" 
       tag="a"
       href="https://www.esse3.unitn.it/Home.do"
-      icon-left="clipboard"
-      >Esse3</b-button>
+      >👤 Esse3</b-button>
   </div>
 </template>
 

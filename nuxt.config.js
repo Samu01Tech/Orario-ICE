@@ -43,7 +43,24 @@ export default {
     'nuxt-clipboard2',
 
     '@nuxtjs/device',
+
+    'nuxt-fontawesome',
   ],
+  /*
+  buefy: {
+    materialDesignIcons: true,
+    defaultIconPack: 'fas',
+    defaultIconComponent: 'font-awesome-icon'
+  },
+  fontawesome: {
+    imports: [
+      {
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['fas']
+      }
+    ]
+  },
+  */
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
