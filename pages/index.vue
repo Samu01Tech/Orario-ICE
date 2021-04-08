@@ -1,9 +1,8 @@
 <template>
   <section class="section">
     <div class="content">
-      <div class="columns">
-        <div class="column"></div>
-        <div class="column is-three-quarters">
+      <div class="columns mx-6">
+        <div class="column px-6">
           <b-message
             title="Messaggi importanti"
             type="is-info"
@@ -65,7 +64,9 @@
             </div>
           </b-collapse>
         </div>
-        <div class="column"></div>
+        <div class="column is-narrow">
+          <QuickLinks></QuickLinks>
+        </div>
       </div>
     </div>
   </section>
@@ -73,6 +74,7 @@
 
 <script>
 import Materia from "@/components/Materia.vue";
+import QuickLinks from "@/components/Quicklinks.vue";
 export default {
   /*
   methods:{
@@ -100,7 +102,8 @@ export default {
     };
   },
   components: {
-    Materia
+    Materia,
+    QuickLinks
   }
 };
 </script>
