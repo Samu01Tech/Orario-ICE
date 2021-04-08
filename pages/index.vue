@@ -2,8 +2,8 @@
   <section class="section">
     <div class="content">
       <div class="columns">
-        <div class="column"></div>
-        <div class="column is-three-quarters">
+        <div class="column is-hidden-touch"></div>
+        <div class="column is-three-quarters is-full-touch">
           <div class="columns">
             <div class="column">
               <h1 class="title is-uppercase has-text-centered">
@@ -69,7 +69,7 @@
             </div>
           </div>
         </div>
-        <div class="column"></div>
+        <div class="column is-hidden-touch"></div>
       </div>
     </div>
   </section>

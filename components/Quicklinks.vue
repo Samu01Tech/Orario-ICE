@@ -9,16 +9,19 @@
       class="button is-success is-fullwidth block is-medium"
       tag="a"
       href="https://exameet.com/course/view.php?id=9"
+      target="_blank"
       >🧲 Exameet</b-button>
     <b-button
       class="button is-danger is-fullwidth block is-medium"
       tag="a"
       href="https://webapps.unitn.it/gestionecorsi/"
+      target="_blank"
       >👨‍🏫 Gestione Corsi Moodle</b-button>
     <b-button
       class="button is-primary is-fullwidth block is-medium" 
       tag="a"
       href="https://www.esse3.unitn.it/Home.do"
+      target="_blank"
       >👤 Esse3</b-button>
   </div>
 </template>
