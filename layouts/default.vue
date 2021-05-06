@@ -2,6 +2,7 @@
   <div>
     <Hero/>
     <nuxt class="NuxtRenderer"/>
+    <Footer />
   </div>
 </template>
 <style>
