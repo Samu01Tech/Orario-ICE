@@ -1,6 +1,7 @@
 <template>
   <section class="section">
     <div class="content">
+      <Message></Message>
       <div class="columns">
         <div class="column is-hidden-touch"></div>
         <div class="column is-three-quarters is-full-touch">
@@ -77,6 +78,7 @@
 
 <script>
 import Materia from "@/components/Materia.vue";
+import Message from "@/components/Message.vue";
 import QuickLinks from "@/components/Quicklinks.vue";
 export default {
   /*
