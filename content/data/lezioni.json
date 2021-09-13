@@ -6,27 +6,27 @@
             "materie": [
                 {
                     "colore": "#00BCD4",
-                    "titolo": "Programmazione 2 - Molteni",
-                    "tag": "PR2",
-                    "link": "https://unitn.zoom.us/j/96322946876",
-                    "codice": "6b4Ztp",
+                    "titolo": "Fisica 2",
+                    "tag": "FS2",
+                    "link": "",
+                    "codice": "",
                     "ora": "8:30 - 10:30"
                 },
                 {
                     "colore": "#00BCD4",
-                    "titolo": "Programmazione 2 - Picco",
+                    "titolo": "Base di Dati",
                     "tag": "PR2",
-                    "link": "https://unitn.zoom.us/j/89994724287",
-                    "codice": "661792",
-                    "ora": "8:30 - 10:30"
+                    "link": "",
+                    "codice": "",
+                    "ora": "13:30 - 15:30"
                 },
                 {
                     "colore": "#F44336",
-                    "titolo": "Analisi 2",
+                    "titolo": "Reti",
                     "tag": "A2",
-                    "link": "https://unitn.zoom.us/j/86061784975",
-                    "codice": "047881",
-                    "ora": "10:30 - 12:30"
+                    "link": "",
+                    "codice": "",
+                    "ora": "15:30 - 17:30"
                 }
             ]
         },
