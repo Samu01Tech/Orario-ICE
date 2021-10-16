@@ -1,139 +1,137 @@
 {
-    "giorni":[
+  "giorni": [
+    {
+      "n": 1,
+      "giorno": "Lunedì",
+      "materie": [
         {
-            "n": 1,
-            "giorno": "Lunedì",
-            "materie": [
-                {
-                    "colore": "#00BCD4",
-                    "titolo": "Fisica 2",
-                    "tag": "FS2",
-                    "link": "",
-                    "codice": "",
-                    "ora": "8:30 - 10:30"
-                },
-                {
-                    "colore": "#00BCD4",
-                    "titolo": "Base di Dati",
-                    "tag": "PR2",
-                    "link": "",
-                    "codice": "",
-                    "ora": "13:30 - 15:30"
-                },
-                {
-                    "colore": "#F44336",
-                    "titolo": "Reti",
-                    "tag": "A2",
-                    "link": "",
-                    "codice": "",
-                    "ora": "15:30 - 17:30"
-                }
-            ]
+          "colore": "#9C27B0",
+          "titolo": "Calcolo delle Probabilità",
+          "tag": "CPR",
+          "link": "",
+          "codice": "000000",
+          "ora": "8:30 - 10:30"
         },
         {
-            "n": 2,
-            "giorno": "Martedì",
-            "materie": [
-                
-            ]
+          "colore": "#00BCD4",
+          "titolo": "Programmazione 2",
+          "tag": "PR2",
+          "link": "",
+          "codice": "000000",
+          "ora": "10:30 - 12:30"
         },
         {
-            "n": 3,
-            "giorno": "Mercoledì",
-            "materie": [
-                {
-                    "colore": "#9C27B0",
-                    "titolo": "Calcolo delle Probabilità",
-                    "tag": "CPR",
-                    "link": "https://unitn.zoom.us/j/84255277068",
-                    "codice": "907881",
-                    "ora": "8:30 - 10:30"
-                },
-                {
-                    "colore": "#00BCD4",
-                    "titolo": "Programmazione 2 - Molteni",
-                    "tag": "PR2",
-                    "link": "https://unitn.zoom.us/j/96322946876",
-                    "codice": "6b4Ztp",
-                    "ora": "10:30 - 12:30"
-                },
-                {
-                    "colore": "#00BCD4",
-                    "titolo": "Programmazione 2 - Picco",
-                    "tag": "PR2",
-                    "link": "https://unitn.zoom.us/j/89994724287",
-                    "codice": "661792",
-                    "ora": "10:30 - 12:30"
-                },
-                {
-                    "colore": "#FF9800",
-                    "titolo": "Tutorato Fisica 1",
-                    "tag": "TF1",
-                    "link": "https://zoom.us/j/93766605163?pwd=eU9iS3JvMTZZQTU3dW10U3pQKzNXZz09",
-                    "codice": "-",
-                    "ora": "14:30 - 16:30"
-                }
-            ]
+          "colore": "#00BCD4",
+          "titolo": "Programmazione 2",
+          "tag": "PR2",
+          "link": "",
+          "codice": "000000",
+          "ora": "13:30 - 15:30"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "giorno": "Martedì",
+      "materie": []
+    },
+    {
+      "n": 3,
+      "giorno": "Mercoledì",
+      "materie": [
+        {
+          "colore": "#9C27B0",
+          "titolo": "Calcolo delle Probabilità",
+          "tag": "CPR",
+          "link": "",
+          "codice": "000000",
+          "ora": "8:30 - 10:30"
         },
         {
-            "n": 4,
-            "giorno": "Giovedì",
-            "materie": [
-                {
-                    "colore": "#9C27B0",
-                    "titolo": "Calcolo delle Probabilità",
-                    "tag": "CPR",
-                    "link": "https://unitn.zoom.us/j/84255277068",
-                    "codice": "907881",
-                    "ora": "13:30 - 15:30"
-                },
-                {
-                    "colore": "#FF9800",
-                    "titolo": "Fisica 1",
-                    "tag": "F1",
-                    "link": "https://exameet.com/mod/bigbluebuttonbn/view.php?id=1028",
-                    "codice": "-",
-                    "ora": "15:30 - 18:30"
-                }
-            ]
+          "colore": "#00BCD4",
+          "titolo": "Programmazione 2",
+          "tag": "PR2",
+          "link": "",
+          "codice": "000000",
+          "ora": "10:30 - 12:30"
         },
         {
-            "n": 5,
-            "giorno": "Venerdì",
-            "materie": [
-                {
-                    "colore": "#F44336",
-                    "titolo": "Analisi 2",
-                    "tag": "A2",
-                    "link": "https://unitn.zoom.us/j/86061784975",
-                    "codice": "047881",
-                    "ora": "10:30 - 12:30"
-                },
-                {
-                    "colore": "#F44336",
-                    "titolo": "Esercitazione Analisi 2",
-                    "tag": "A2",
-                    "link": "https://unitn.zoom.us/j/87493461118",
-                    "codice": "GaussGreen",
-                    "ora": "10:30 - 12:30"
-                },
-                {
-                    "colore": "#FF9800",
-                    "titolo": "Fisica 1",
-                    "tag": "F1",
-                    "link": "https://exameet.com/mod/bigbluebuttonbn/view.php?id=1028",
-                    "codice": "-",
-                    "ora": "10:30 - 13:30"
-                },
-                {
-                    "colore": "#9C27B0",
-                    "titolo": "Tutorato Calcolo delle Probabilità",
-                    "tag": "TCPR",
-                    "link": "https://unitn.zoom.us/j/89237241492?pwd=ZXl2WXd1bi9Dcm9UdHZvVVR6NGM5dz09",
-                    "codice": "-",
-                    "ora": "14:30 - 16:30"
-                }
-            ]
-        }    
-    ]
+          "colore": "#00BCD4",
+          "titolo": "Programmazione 2",
+          "tag": "PR2",
+          "link": "",
+          "codice": "000000",
+          "ora": "10:30 - 12:30"
+        },
+        {
+          "colore": "#FF9800",
+          "titolo": "Tutorato Fisica 1",
+          "tag": "TF1",
+          "link": "",
+          "codice": "000000",
+          "ora": "14:30 - 16:30"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "giorno": "Giovedì",
+      "materie": [
+        {
+          "colore": "#9C27B0",
+          "titolo": "Calcolo delle Probabilità",
+          "tag": "CPR",
+          "link": "",
+          "codice": "000000",
+          "ora": "13:30 - 15:30"
+        },
+        {
+          "colore": "#FF9800",
+          "titolo": "Fisica 1",
+          "tag": "F1",
+          "link": "",
+          "codice": "000000",
+          "ora": "15:30 - 18:30"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "giorno": "Venerdì",
+      "materie": [
+        {
+          "colore": "#F44336",
+          "titolo": "Analisi 2",
+          "tag": "A2",
+          "link": "",
+          "codice": "000000",
+          "ora": "10:30 - 12:30"
+        },
+        {
+          "colore": "#F44336",
+          "titolo": "Esercitazione Analisi 2",
+          "tag": "A2",
+          "link": "",
+          "codice": "000000",
+          "ora": "10:30 - 12:30"
+        },
+        {
+          "colore": "#FF9800",
+          "titolo": "Fisica 1",
+          "tag": "F1",
+          "link": "",
+          "codice": "000000",
+          "ora": "10:30 - 13:30"
+        },
+        {
+          "colore": "#9C27B0",
+          "titolo": "Tutorato Calcolo delle Probabilità",
+          "tag": "TCPR",
+          "link": "",
+          "codice": "000000",
+          "ora": "14:30 - 16:30"
+        }
+      ]
+    }
+  ]
 }

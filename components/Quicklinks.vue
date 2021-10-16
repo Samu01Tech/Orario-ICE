@@ -8,9 +8,9 @@
     <b-button
       class="button is-success is-fullwidth block is-medium"
       tag="a"
-      href="https://exameet.com/course/view.php?id=9"
+      href="#"
       target="_blank"
-      >🧲 Exameet</b-button>
+      >🧲 Altra piattaforma</b-button>
     <b-button
       class="button is-danger is-fullwidth block is-medium"
       tag="a"
